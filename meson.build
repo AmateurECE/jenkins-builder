@@ -7,7 +7,7 @@
 #
 # CREATED:          02/16/2022
 #
-# LAST EDITED:      02/16/2022
+# LAST EDITED:      02/17/2022
 #
 # Copyright 2022, Ethan D. Twardy
 #
@@ -25,7 +25,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ###
 
-project('jenkins-builder', 'c', version: '0.1.0')
+project('jenkins-builder', 'c')
 
 libcurl = dependency('libcurl')
 libjson_c = dependency('json-c')
