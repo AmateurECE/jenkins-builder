@@ -7,7 +7,7 @@
 //
 // CREATED:         02/16/2022
 //
-// LAST EDITED:     02/16/2022
+// LAST EDITED:     02/17/2022
 //
 // Copyright 2022, Ethan D. Twardy
 //
@@ -210,6 +210,7 @@ int main(int argc, char** argv) {
 
     CURL* curl = curl_easy_init();
     if (NULL == curl) {
+        credentials_release(&credentials);
         return ENOMEM;
     }
 
